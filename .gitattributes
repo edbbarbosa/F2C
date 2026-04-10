@@ -1,0 +1,7 @@
+# Tell GitHub to ignore the Makefile in language stats
+Makefile linguist-documentation
+# OR ignore it entirely
+Makefile linguist-vendored
+
+# Ensure all .h files are counted as C++
+*.h linguist-language=cpp
