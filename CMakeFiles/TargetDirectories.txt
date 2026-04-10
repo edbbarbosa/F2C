@@ -1,0 +1,9 @@
+/home/casa/Códigos/f2c/CMakeFiles/f2c.dir
+/home/casa/Códigos/f2c/CMakeFiles/edit_cache.dir
+/home/casa/Códigos/f2c/CMakeFiles/rebuild_cache.dir
+/home/casa/Códigos/f2c/CMakeFiles/list_install_components.dir
+/home/casa/Códigos/f2c/CMakeFiles/install.dir
+/home/casa/Códigos/f2c/CMakeFiles/install/local.dir
+/home/casa/Códigos/f2c/CMakeFiles/install/strip.dir
+/home/casa/Códigos/f2c/CMakeFiles/f2c_autogen_timestamp_deps.dir
+/home/casa/Códigos/f2c/CMakeFiles/f2c_autogen.dir
