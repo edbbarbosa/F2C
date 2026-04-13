@@ -50,6 +50,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
   /usr/include/c++/13/bits/iterator_concepts.h \
   /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
@@ -142,6 +143,8 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/list \
@@ -274,6 +277,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
@@ -290,6 +294,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
@@ -309,6 +314,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/QValidator \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
@@ -334,6 +340,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
@@ -341,8 +348,10 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
@@ -353,6 +362,7 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
@@ -421,6 +431,10 @@ f2c_autogen/timestamp: CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
   /usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake
+
+CMakeFiles/f2c.dir/f2c.cpp.o: f2c.cpp \
+  f2c.h \
+  /usr/include/stdc-predef.h
 
 CMakeFiles/f2c.dir/f2c_autogen/mocs_compilation.cpp.o: f2c_autogen/mocs_compilation.cpp \
   f2c.h \
@@ -1539,8 +1553,6 @@ CMakeFiles/f2c.dir/mainwindow.cpp.o: mainwindow.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
@@ -1665,6 +1677,10 @@ f2c_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
@@ -1683,9 +1699,13 @@ f2c_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
 
@@ -1741,13 +1761,15 @@ f2c_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
 
 /usr/include/linux/limits.h:
 
@@ -1757,13 +1779,9 @@ f2c_autogen/include/ui_mainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
 
@@ -1792,6 +1810,14 @@ f2c_autogen/include/ui_mainwindow.h:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
+
+/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
 
 /usr/include/c++/13/cstdlib:
 
@@ -1897,6 +1923,8 @@ mainwindow.cpp:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
@@ -1926,6 +1954,12 @@ mainwindow.cpp:
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/c++/13/bits/refwrap.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
+
+/usr/include/c++/13/bits/ranges_base.h:
 
 /usr/include/c++/13/bits/stl_function.h:
 
@@ -1957,8 +1991,6 @@ mainwindow.cpp:
 
 /usr/include/c++/13/numbers:
 
-/usr/include/c++/13/cwctype:
-
 /usr/include/c++/13/bits/move_only_function.h:
 
 /usr/include/c++/13/bits/localefwd.h:
@@ -1966,6 +1998,8 @@ mainwindow.cpp:
 /usr/include/c++/13/bits/move.h:
 
 /usr/include/c++/13/bits/mofunc_impl.h:
+
+/usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -2059,8 +2093,6 @@ mainwindow.h:
 
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
-/usr/include/c++/13/bits/memoryfwd.h:
-
 /usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bit:
@@ -2103,6 +2135,8 @@ mainwindow.ui:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QValidator:
+
 /usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -2127,12 +2161,6 @@ mainwindow.ui:
 
 /usr/include/c++/13/cwchar:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
-
-/usr/include/c++/13/bits/ranges_base.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
-
 /usr/include/c++/13/atomic:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake:
@@ -2152,10 +2180,6 @@ mainwindow.ui:
 /usr/include/c++/13/bits/c++0x_warning.h:
 
 /usr/include/c++/13/stdlib.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
@@ -2183,6 +2207,8 @@ mainwindow.ui:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
+/usr/include/c++/13/bits/istream.tcc:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h:
 
 /usr/include/c++/13/bits/vector.tcc:
@@ -2194,6 +2220,10 @@ mainwindow.ui:
 /usr/include/errno.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake:
 
@@ -2224,6 +2254,8 @@ mainwindow.ui:
 /usr/include/c++/13/bits/shared_ptr_base.h:
 
 /usr/include/wchar.h:
+
+/usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
@@ -2268,6 +2300,14 @@ mainwindow.ui:
 /usr/include/c++/13/initializer_list:
 
 /usr/include/c++/13/ios:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
+
+/usr/include/c++/13/istream:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -2379,10 +2419,6 @@ mainwindow.ui:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
@@ -2414,10 +2450,6 @@ mainwindow.ui:
 /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/syscall.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
